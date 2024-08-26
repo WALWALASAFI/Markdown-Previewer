@@ -57,7 +57,7 @@ And here. | Okay. | I think we get it.
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 p-5">
+    <div className="min-h-screen bg-black-100 p-5">
       <h1 className="text-4xl font-bold text-center mb-5">Markdown Previewer</h1>
       <div className="flex flex-col md:flex-row justify-between items-center">
         <textarea
