@@ -3,6 +3,8 @@
 
 
 # Dimo 
+![alt text](<New folder/SharedScreenshot.jpg>)
+You can check the live dimo of project [here]()
 
 # Features
 #### Real-time Preview: As you type your markdown in the editor, the output is immediately rendered in the preview area.
