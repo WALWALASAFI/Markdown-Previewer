@@ -8,48 +8,38 @@ marked.setOptions({
 });
 
 function App() {
-  const [markdown, setMarkdown] = useState(`# Welcome to my React Markdown Previewer!
+  const [markdown, setMarkdown] = useState(`# Walwala Safi
 
-## This is a sub-heading...
-### And here's some other cool stuff:
+## Markdown Previewer
 
-Heres some code, \`<div></div>\`, between 2 backticks.
+Welcome to my Markdown Previewer! The Markdown Previewer is a web application built using 
+React that allows users to write and preview Markdown in real time. It’s a simple, 
+yet powerful tool that converts plain text with Markdown syntax into HTML, enabling users to see formatted text as they type.
 
-\`\`\`
-// this is multi-line code:
+[Click here to visit my GitHub Repository](https://github.com/WALWALASAFI/Markdown-Previewer)
 
-function anotherExample(firstLine, lastLine) {
-  if (firstLine == '\`\`\`' && lastLine == '\`\`\`') {
-    return multiLineCode;
-  }
+Inline code: \`inline code\`
+
+\`\`\`javascript
+// Code block
+function exampleFunction() {
+  console.log("This is a code block");
 }
 \`\`\`
 
-You can also make text **bold**... whoa!
-Or _italic_.
-Or... wait for it... **_both!_**
-And feel free to go crazy ~~crossing stuff out~~.
+- Random Quote Machine
+- MarkDown Previewer
+- Drum Machine
+- JavaScript Calculator 
+- 25+5 Clock
 
-There's also [links](https://www.freecodecamp.org), and
-> Block Quotes!
+> This is a blockquote. It is used to highlight quotes.
 
-And if you want to get really crazy, even tables:
+> Blockquote
 
-Wild Header | Crazy Header | Another Header?
------------- | ------------- | -------------
-Your content can | be here, and it | can be here....
-And here. | Okay. | I think we get it.
+![React Logo](https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg)
 
-- And of course there are lists.
-  - Some are bulleted.
-     - With different indentation levels.
-        - That look like this.
-
-1. And there are numbered lists too.
-1. Use just 1s if you want!
-1. But the list goes on...
-
-![React Logo w/ Text](https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg)
+**Markdown**
 `);
 
   const handleChange = (e) => {
@@ -57,9 +47,9 @@ And here. | Okay. | I think we get it.
   };
 
   return (
-    <div className="min-h-screen bg-black-100 p-5">
-      <h1 className="text-4xl font-bold text-center mb-5">Markdown Previewer</h1>
-      <div className="flex flex-col md:flex-row justify-between items-center">
+    <div className="min-h-screen bg-gradient-to-br from-orange-900 to-white-700 text-black flex flex-col">
+      <h1 className="text-4xl font-bold text-center mb-4 mt-10">Markdown Previewer</h1>
+      <div className="container mx-auto py-10 px-4 flex flex-col lg:flex-row gap-8">
         <textarea
           id="editor"
           className="w-full md:w-1/2 h-64 p-2 border border-gray-300 rounded-md"
