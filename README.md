@@ -3,7 +3,8 @@
 
 
 # Dimo 
-![alt text](<New folder/SharedScreenshot.jpg>)
+![pic](<New folder/SharedScreenshot.jpg>)
+
 You can check the live dimo of project [here]()
 
 # Features

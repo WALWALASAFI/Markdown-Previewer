@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';  // Only import what you need
 import { marked } from 'marked';
 import './App.css';
 

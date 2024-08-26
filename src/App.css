@@ -2,7 +2,8 @@ body {
   font-family: 'Arial', sans-serif;
 }
 
-#editor, #preview {
+#editor,
+#preview {
   min-height: 300px;
 }
 
